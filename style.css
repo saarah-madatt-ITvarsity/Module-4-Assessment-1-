@@ -1,0 +1,80 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background: url('images/space.png');
+    overflow: hidden;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-shadow: 0 0 10px #000000;
+    color: white;
+}
+
+/*============================ SUN ============================*/
+
+#sun{
+    position: absolute;
+    z-index: 1000;
+    width: 160px;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/*============================ NEPTUNE ============================*/
+
+#neptune{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    z-index: 1000;
+}
+
+#neptune-orbit{
+    position: absolute;
+    width: 1204px;
+    height: 1204px;
+    bottom: -512px;
+    left: 50%;
+    margin-left: -602px;
+    border: 1px dotted white;
+    border-radius: 50%;
+}
+
+#neptune-label{
+    bottom: 692px;
+}
+
+/*============================ PLEASE REMOVE ============================*/
+
+#container{
+    transform: scale(0.8, 0.8) translate(0, 700px);
+}
+
+/*============================ LABEL BOX ============================*/
+
+.label-box{
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    margin-left: -75px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.label-box a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.label-box a:visited{
+    color: white;
+}
